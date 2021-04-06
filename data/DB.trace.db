@@ -1,0 +1,9 @@
+2021-04-06 17:49:29 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE FROM USERS
+WHERE EMAIL IS NULL
+
+SELECT[*] * FROM USERS"; SQL statement:
+delete from users
+where email is null
+
+select * from users [42000-200]
